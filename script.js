@@ -1,4 +1,7 @@
-let fashionHouse = ["Burberry", "Prada", "Céline"];
-for (let i = 0; i < fashionHouse.length; i++) {
-   console.log(fashionHouse[i]);
- }
+function show(arr) {
+   for (let i = 0; i < arr.length; i++) {
+      console.log(arr[i]);
+    }
+}
+let arr = ["Burberry", "Givenchy", "Céline"];
+show(arr);
